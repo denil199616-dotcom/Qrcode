@@ -1,0 +1,46 @@
+/* Основной контейнер */
+.scan-history-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Контейнер для каждого QR-кода и текста */
+.qr-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Текст сканированного QR-кода */
+.qr-text {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  word-break: break-all;
+  text-align: center;
+  max-width: 200px;
+}
+
+/* Контейнер для QR-кода */
+.qr-code {
+  margin-bottom: 8px;
+}
+
+/* Стили для пустого состояния */
+.empty-state {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #777;
+}
+
+
