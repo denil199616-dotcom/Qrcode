@@ -2,6 +2,7 @@
   "name": "qr_react",
   "private": true,
   "version": "0.0.0",
+   "homepage": "https://github.com/denil199616-dotcom/Qrcode",
   "type": "module",
   "scripts": {
     "dev": "vite",
