@@ -5,13 +5,11 @@
    "homepage": "https://github.com/denil199616-dotcom/Qrcode",
   "type": "module",
   "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@yudiel/react-qr-scanner": "^2.5.0",
     "qrcode.react": "^4.2.0",
